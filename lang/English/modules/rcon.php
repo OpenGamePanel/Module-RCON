@@ -21,16 +21,12 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  *
  */
-#####################################################################
-# English language variables
-#
-##################################################################### 
 
-define("rcon_command_title", "RCON Commands");
-define("has_sent_to", "has sent to");
-define("need_set_remote_pass", "need set remote pass");
-define("before_sending_rcon_com", "before sending rcon com");
-define("send_command", "Send command");
-define("check-all", "Check all");
-define("uncheck-all", "Uncheck all");
+define('rcon_command_title', "RCON Commands");
+define('has_sent_to', "has sent to");
+define('need_set_remote_pass', "need set remote pass");
+define('before_sending_rcon_com', "before sending rcon com");
+define('send_command', "Send command");
+define('check-all', "Check all");
+define('uncheck-all', "Uncheck all");
 ?>
