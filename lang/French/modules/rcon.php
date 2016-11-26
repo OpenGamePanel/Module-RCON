@@ -2,7 +2,7 @@
 /*
  *
  * OGP - Open Game Panel
- * Copyright (C) Copyright (C) 2008 - 2012 The OGP Development Team
+ * Copyright (C) 2008 - 2016 The OGP Development Team
  *
  * http://www.opengamepanel.org/
  *
@@ -22,12 +22,11 @@
  *
  */
 
-
-define("rcon_command_title", "Commandes RCON");
-define("has_sent_to", "a été envoyée à");
-define("need_set_remote_pass", "Vous devez rentrer le mot de passe");
-define("before_sending_rcon_com", "avant d'envoyer des commandes rcon.");
-define("send_command", "Envoyer la commande");
-define("check-all", "Cocher tout");
-define("uncheck-all", "Décocher tout");
+define('rcon_command_title', "Commandes RCON");
+define('has_sent_to', "a Ã©tÃ© envoyÃ©e Ã ");
+define('need_set_remote_pass', "Vous devez rentrer le mot de passe");
+define('before_sending_rcon_com', "avant d'envoyer des commandes RCON.");
+define('send_command', "Envoyer la commande");
+define('check-all', "Cocher tout");
+define('uncheck-all', "DÃ©cocher tout");
 ?>
