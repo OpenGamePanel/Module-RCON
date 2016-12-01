@@ -1,8 +1,8 @@
-<?php 
+<?php
 /*
  *
  * OGP - Open Game Panel
- * Copyright (C) Copyright (C) 2008 - 2014 The OGP Development Team
+ * Copyright (C) 2008 - 2016 The OGP Development Team
  *
  * http://www.opengamepanel.org/
  *
@@ -22,11 +22,11 @@
  *
  */
 
-define('rcon_command_title', 'Rcon command title');
-define('has_sent_to', 'Has sent to');
-define('need_set_remote_pass', 'Need set remote pass');
-define('before_sending_rcon_com', 'Before sending rcon com');
-define('send_command', 'Send command');
-define('check-all', 'Check-all');
-define('uncheck-all', 'Uncheck-all');
+define('rcon_command_title', "RCON Commands");
+define('has_sent_to', "has sent to");
+define('need_set_remote_pass', "need set remote pass");
+define('before_sending_rcon_com', "before sending rcon com");
+define('send_command', "Send command");
+define('check-all', "Check all");
+define('uncheck-all', "Uncheck all");
 ?>
