@@ -22,7 +22,7 @@
  *
  */
 
-define('rcon_command_title', "RCON Commands");
+define('rcon_command_title', "RCON Befehle");
 define('has_sent_to', "Hat gesendet an");
 define('need_set_remote_pass', "need set remote pass");
 define('before_sending_rcon_com', "before sending rcon com");
