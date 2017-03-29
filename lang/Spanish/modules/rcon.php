@@ -24,7 +24,7 @@
 
 define('rcon_command_title', "Comandos RCON");
 define('has_sent_to', "se envió a");
-define('need_set_remote_pass', "Necesita configurar el password RCON");
+define('need_set_remote_pass', "Necesita configurar la contraseña RCON");
 define('before_sending_rcon_com', "antes de enviar comandos RCON");
 define('send_command', "Enviar comando");
 define('check-all', "Marcar todo");
