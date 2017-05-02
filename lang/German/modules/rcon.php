@@ -24,8 +24,8 @@
 
 define('rcon_command_title', "RCON Befehle");
 define('has_sent_to', "Hat gesendet an");
-define('need_set_remote_pass', "need set remote pass");
-define('before_sending_rcon_com', "before sending rcon com");
+define('need_set_remote_pass', "Kennwort muss festgelegt werden.");
+define('before_sending_rcon_com', "Vor dem Senden des rcon Befehls");
 define('send_command', "Befehl senden");
 define('check-all', "Alle auswählen");
 define('uncheck-all', "Alle ab­wäh­len");
