@@ -25,7 +25,7 @@
 require_once("modules/config_games/server_config_parser.php");
 require_once('includes/lib_remote.php');
 
-function exec_ogp_module() 
+function exec_ogp_module()
 {
 	global $db;
 
@@ -37,7 +37,7 @@ function exec_ogp_module()
 	}
 
 	$select_game = "<form method=POST >\n<table class=center >\n\n<tr>\n";
-	
+
 	$i = 0;
 	$i2 = 0;
 	$colspan = "";
@@ -49,18 +49,19 @@ function exec_ogp_module()
 		if( ( $server_xml->control_protocol == 'rcon' OR $server_xml->control_protocol == 'rcon2' OR 
 		   @$server_xml->gameq_query_name == "minecraft" OR $server_xml->control_protocol == 'lcon' ) AND $screen_running )
 		{
-			
+
 			$i2++;
-			if ( count( $server_homes ) == $i2 ) 
+			if ( count( $server_homes ) == $i2 )
 			{
 				$i = 0;
 			}
 			$control = ( $i == 0 ) ?  "</td>\n" : "</td>\n</tr>\n<tr>\n";
+			$display_ip = checkDisplayPublicIP($server_home['display_public_ip'],$server_home['ip']);
 			$select_game .= "<td class=left ><input type=checkbox name='action-". $server_home['ip'] . "-" . $server_home['port'] .
 							"' value='". $server_home['home_id'] . "-" . $server_home['mod_id'] . "-" . $server_home['ip'] .
-							"-" . $server_home['port'] . "' />" . $server_home['home_name'] . " - " . $server_home['ip'] .
+							"-" . $server_home['port'] . "' />" . $server_home['home_name'] . " - " . $display_ip .
 							":" . $server_home['port'] . $control;
-							
+
 			$i = ( $control == "</td>\n" ) ? 1 : 0;
 		}
 	}
