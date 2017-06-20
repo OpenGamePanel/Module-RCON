@@ -22,11 +22,11 @@
  *
  */
 
-define('rcon_command_title', "RCON Commands");
-define('has_sent_to', "has sent to");
+define('rcon_command_title', "أوامر RCON");
+define('has_sent_to', "تم إرسالها إلى");
 define('need_set_remote_pass', "need set remote pass");
-define('before_sending_rcon_com', "before sending rcon com");
-define('send_command', "Send command");
-define('check-all', "Check all");
-define('uncheck-all', "Uncheck all");
+define('before_sending_rcon_com', "قبل إرسال rcon com");
+define('send_command', "إرسال الأمر");
+define('check-all', "تحقق من الكل");
+define('uncheck-all', "إلغاء الكل");
 ?>
