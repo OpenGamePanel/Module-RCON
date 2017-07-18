@@ -23,10 +23,10 @@
  */
 
 define('rcon_command_title', "RCON команда");
-define('has_sent_to', "has sent to");
-define('need_set_remote_pass', "need set remote pass");
-define('before_sending_rcon_com', "before sending rcon com");
-define('send_command', "Send command");
-define('check-all', "Check all");
-define('uncheck-all', "Uncheck all");
+define('has_sent_to', "Отправил");
+define('need_set_remote_pass', "Необходимо установить удаленный пароль");
+define('before_sending_rcon_com', "Перед отправкой rcon команды");
+define('send_command', "Отправить команду");
+define('check-all', "Выбрать все");
+define('uncheck-all', "Снять все");
 ?>
