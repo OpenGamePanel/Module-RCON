@@ -22,11 +22,11 @@
  *
  */
 
-define('rcon_command_title', "RCON Commands");
-define('has_sent_to', "has sent to");
-define('need_set_remote_pass', "need set remote pass");
-define('before_sending_rcon_com', "before sending rcon com");
-define('send_command', "Send command");
-define('check-all', "Check all");
-define('uncheck-all', "Uncheck all");
+define('rcon_command_title', "دستورات RCON");
+define('has_sent_to', "ارسال شود به");
+define('need_set_remote_pass', "باید گذرواژه Remote ست شود");
+define('before_sending_rcon_com', "پس از ارسال دستور RCON");
+define('send_command', "ارسال دستور");
+define('check-all', "همه موارد را انتخاب کن");
+define('uncheck-all', "همه موارد را از حالت انتخاب خارج کن");
 ?>
