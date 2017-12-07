@@ -22,11 +22,11 @@
  *
  */
 
-define('rcon_command_title', "RCON parancsok");
-define('has_sent_to', "elküldve");
-define('need_set_remote_pass', "be kell állítani a távoli jelszót");
-define('before_sending_rcon_com', "mielőtt RCON parancsot küldünk");
-define('send_command', "Parancs küldése");
-define('check-all', "Összes kijelölése");
-define('uncheck-all', "Összes kijelölés törlése");
+define('OGP_LANG_rcon_command_title', "RCON parancsok");
+define('OGP_LANG_has_sent_to', "elküldve");
+define('OGP_LANG_need_set_remote_pass', "be kell állítani a távoli jelszót");
+define('OGP_LANG_before_sending_rcon_com', "mielőtt RCON parancsot küldünk");
+define('OGP_LANG_send_command', "Parancs küldése");
+define('OGP_LANG_check-all', "Összes kijelölése");
+define('OGP_LANG_uncheck-all', "Összes kijelölés törlése");
 ?>
