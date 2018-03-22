@@ -2,7 +2,7 @@
 /*
  *
  * OGP - Open Game Panel
- * Copyright (C) 2008 - 2016 The OGP Development Team
+ * Copyright (C) 2008 - 2017 The OGP Development Team
  *
  * http://www.opengamepanel.org/
  *
@@ -22,11 +22,11 @@
  *
  */
 
-define('rcon_command_title', "RCON команда");
-define('has_sent_to', "has sent to");
-define('need_set_remote_pass', "need set remote pass");
-define('before_sending_rcon_com', "before sending rcon com");
-define('send_command', "Send command");
-define('check-all', "Check all");
-define('uncheck-all', "Uncheck all");
+define('OGP_LANG_rcon_command_title', "RCON команда");
+define('OGP_LANG_has_sent_to', "Отправил");
+define('OGP_LANG_need_set_remote_pass', "Необходимо установить удаленный пароль");
+define('OGP_LANG_before_sending_rcon_com', "Перед отправкой rcon команды");
+define('OGP_LANG_send_command', "Отправить команду");
+define('OGP_LANG_check-all', "Выбрать все");
+define('OGP_LANG_uncheck-all', "Снять все");
 ?>

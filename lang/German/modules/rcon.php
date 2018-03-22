@@ -2,7 +2,7 @@
 /*
  *
  * OGP - Open Game Panel
- * Copyright (C) 2008 - 2016 The OGP Development Team
+ * Copyright (C) 2008 - 2017 The OGP Development Team
  *
  * http://www.opengamepanel.org/
  *
@@ -22,11 +22,11 @@
  *
  */
 
-define('rcon_command_title', "RCON Befehle");
-define('has_sent_to', "Hat gesendet an");
-define('need_set_remote_pass', "Kennwort muss festgelegt werden.");
-define('before_sending_rcon_com', "Vor dem Senden des rcon Befehls");
-define('send_command', "Befehl senden");
-define('check-all', "Alle auswählen");
-define('uncheck-all', "Alle ab­wäh­len");
+define('OGP_LANG_rcon_command_title', "RCON Befehle");
+define('OGP_LANG_has_sent_to', "Hat gesendet an");
+define('OGP_LANG_need_set_remote_pass', "Kennwort muss festgelegt werden.");
+define('OGP_LANG_before_sending_rcon_com', "Vor dem Senden des rcon Befehls");
+define('OGP_LANG_send_command', "Befehl senden");
+define('OGP_LANG_check-all', "Alle auswählen");
+define('OGP_LANG_uncheck-all', "Alle ab­wäh­len");
 ?>

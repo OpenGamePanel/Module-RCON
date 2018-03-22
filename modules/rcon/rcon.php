@@ -56,7 +56,7 @@ function exec_ogp_module()
 				$i = 0;
 			}
 			$control = ( $i == 0 ) ?  "</td>\n" : "</td>\n</tr>\n<tr>\n";
-			$display_ip = checkDisplayPublicIP($server_home['display_public_ip'],$server_home['ip']);
+			$display_ip = checkDisplayPublicIP($server_home['display_public_ip'],$server_home['ip'] != $server_home['agent_ip'] ? $server_home['ip'] : $server_home['agent_ip']);
 			$select_game .= "<td class=left ><input type=checkbox name='action-". $server_home['ip'] . "-" . $server_home['port'] .
 							"' value='". $server_home['home_id'] . "-" . $server_home['mod_id'] . "-" . $server_home['ip'] .
 							"-" . $server_home['port'] . "' />" . $server_home['home_name'] . " - " . $display_ip .

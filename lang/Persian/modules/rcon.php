@@ -22,11 +22,11 @@
  *
  */
 
-define('OGP_LANG_rcon_command_title', "أوامر RCON");
-define('OGP_LANG_has_sent_to', "تم إرسالها إلى");
-define('OGP_LANG_need_set_remote_pass', "تحتاج تعيين تمريرة عن بعد");
-define('OGP_LANG_before_sending_rcon_com', "قبل إرسال rcon com");
-define('OGP_LANG_send_command', "إرسال الأمر");
-define('OGP_LANG_check-all', "تحقق من الكل");
-define('OGP_LANG_uncheck-all', "إلغاء الكل");
+define('OGP_LANG_rcon_command_title', "دستورات RCON");
+define('OGP_LANG_has_sent_to', "ارسال شود به");
+define('OGP_LANG_need_set_remote_pass', "باید گذرواژه Remote ست شود");
+define('OGP_LANG_before_sending_rcon_com', "پس از ارسال دستور RCON");
+define('OGP_LANG_send_command', "ارسال دستور");
+define('OGP_LANG_check-all', "همه موارد را انتخاب کن");
+define('OGP_LANG_uncheck-all', "همه موارد را از حالت انتخاب خارج کن");
 ?>
