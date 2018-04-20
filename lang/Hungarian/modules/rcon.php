@@ -28,5 +28,5 @@ define('OGP_LANG_need_set_remote_pass', "be kell állítani a távoli jelszót")
 define('OGP_LANG_before_sending_rcon_com', "mielőtt RCON parancsot küldünk");
 define('OGP_LANG_send_command', "Parancs küldése");
 define('OGP_LANG_check-all', "Összes kijelölése");
-define('OGP_LANG_uncheck-all', "Összes kijelölés törlése");
+define('OGP_LANG_uncheck-all', "Összes kijelölés megszüntetése");
 ?>
