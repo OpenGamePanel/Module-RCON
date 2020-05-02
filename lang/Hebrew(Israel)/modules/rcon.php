@@ -22,11 +22,11 @@
  *
  */
 
-define('OGP_LANG_rcon_command_title', "RCON Commands");
-define('OGP_LANG_has_sent_to', "has sent to");
-define('OGP_LANG_need_set_remote_pass', "need set remote pass");
-define('OGP_LANG_before_sending_rcon_com', "before sending rcon com");
-define('OGP_LANG_send_command', "Send command");
-define('OGP_LANG_check-all', "Check all");
-define('OGP_LANG_uncheck-all', "Uncheck all");
+define('OGP_LANG_rcon_command_title', "פקודות RCON");
+define('OGP_LANG_has_sent_to', "שלח אל");
+define('OGP_LANG_need_set_remote_pass', "צריך להגדיר סיסמא מרחוק");
+define('OGP_LANG_before_sending_rcon_com', "לפני שליחת פקודת RCON");
+define('OGP_LANG_send_command', "שלח פקודה");
+define('OGP_LANG_check-all', "סמן הכל");
+define('OGP_LANG_uncheck-all', "בטל סימון של הכל");
 ?>
