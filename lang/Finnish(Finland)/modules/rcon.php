@@ -22,11 +22,11 @@
  *
  */
 
-define('OGP_LANG_rcon_command_title', "RCON Commands");
-define('OGP_LANG_has_sent_to', "has sent to");
-define('OGP_LANG_need_set_remote_pass', "need set remote pass");
-define('OGP_LANG_before_sending_rcon_com', "before sending rcon com");
-define('OGP_LANG_send_command', "Send command");
-define('OGP_LANG_check-all', "Check all");
-define('OGP_LANG_uncheck-all', "Uncheck all");
+define('OGP_LANG_rcon_command_title', "RCON-komennot");
+define('OGP_LANG_has_sent_to', "on lähettänyt");
+define('OGP_LANG_need_set_remote_pass', " täytyy asettaa etäohjauksen salasana");
+define('OGP_LANG_before_sending_rcon_com', "ennen rcon-komentojen lähettämistä");
+define('OGP_LANG_send_command', "Lähetä komento");
+define('OGP_LANG_check-all', "Valitse kaikki");
+define('OGP_LANG_uncheck-all', "Poista valinta kaikista");
 ?>
